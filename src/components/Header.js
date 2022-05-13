@@ -5,7 +5,7 @@ import {MovieContext} from './MovieContext'
 
 const useStyles = createUseStyles({
     item: {
-      marginRight: 20
+      marginRight: 30
     },
     wrapper: {
       display: 'flex',
