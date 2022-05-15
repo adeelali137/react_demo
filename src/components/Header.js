@@ -9,7 +9,7 @@ const useStyles = createUseStyles({
     },
     wrapper: {
       display: 'flex',
-      justifyContent: "space-around",
+      justifyContent: "space-between",
       alignItems: "center",
       backgroundColor: "#ccc",
       height: "8vh",
