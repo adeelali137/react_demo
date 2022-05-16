@@ -1,0 +1,4 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.header-coins{text-align: center; padding: 20px 50px; background-color: #ddd;}
+.header-coins h3{font-size: 40px; font-family: Arial, Helvetica, sans-serif; margin-bottom: 12px;}
+.header-coins input{width: 320px; padding: 6px 16px;}
