@@ -16,7 +16,7 @@ export default function CoinsDisplay() {
     }, [])
 
     const filtercoin = product.filter((coin)=> {
-        return coin.symbol.toLowerCase().includes(searchword.toLowerCase())
+        return coin.name.toLowerCase().includes(searchword.toLowerCase())
     })
 
   return (
@@ -38,7 +38,7 @@ export default function CoinsDisplay() {
                <img src={coin.icon} alt="" />
                <h1>{coin.name}</h1> 
                <h3>{coin.symbol}</h3>
-               <p>{coin.price}</p> <br /><br />
+               <p>${coin.price.toFixed(2)}</p> <br /><br />
                </>
            ) })}
        </div>
